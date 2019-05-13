@@ -1,0 +1,26 @@
+body{
+    background-color: #AA3939;
+    font-family: 'Bangers', cursive;
+    color: aliceblue;
+}
+/* navigation bar*/
+a {
+    text-decoration: none;
+    color: white;
+    padding: 5%;
+    font-size: 30px;
+}
+nav {
+    background-color: #FF6868;
+    widows: 100%;
+    padding: 10px;
+}
+/* logo picture */
+.dcimage {
+    margin-left: 30%;
+}
+/* container */
+#info-container {
+    text-align: center;
+    background-color: #491818;
+}

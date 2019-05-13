@@ -1,0 +1,48 @@
+body{
+    background-color: #AA3939;
+    font-family: 'Bangers', cursive;
+    color: white;
+}
+/* navigation bar*/
+a {
+    text-decoration: none;
+    color: white;
+    padding: 5%;
+    font-size: 30px;
+}
+nav {
+    background-color: #FF6868;
+    width: 100%;
+    padding:10px 0;
+    position: fixed;
+    margin-top:0;
+}
+.dcimage {
+    margin-left: 36%;
+}
+/* Home Page */
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+#heros, #villains {
+    display: flex;
+    width: 100%;
+}
+/* a.hover{
+    background:;
+} */
+ .batman , .wonderwoman , .greenlantren, .joker , .cheetah , .sinestro{
+    margin: 5%;
+    text-align: center;
+    background-color: #491818;
+    width: 500px;
+    color: white;
+}
+/* .joker , .cheetah , .sinestro{
+    margin: 5%;
+    text-align: center;
+    background-color: #491818;
+    width: 500px;
+    color: white;
+} */

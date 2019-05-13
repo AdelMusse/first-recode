@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+</head>
+<body>
+    <div>
+    <!-- this is a form for the survey we gonna make soon -->
+    <form method=POST>
+        First Name:
+        <input type="text" name="Firstname" placeholder="Enter Your first name"><br> 
+        Last Name:
+        <input type="text" name="Lastname" placeholder="Enter your last  name"><br>
+        Email: <input type="email" name="email" placeholder="Enter Email" required><br>
+        Password: <input type="password" name="password" placeholder="Enter Password" minlength="5"><br>
+        Date of Birth: <input type="date"><br>
+        Gender:<br>
+        <input type="radio" name="gender" value="male">Male<br>
+        <input type="radio" name="gender" value="female">Female<br>
+        <input type="radio" name="gender" value="other">Other<br>
+        What pets do you have?<br>
+        <input type="checkbox" name="cat">Cat<br>
+        <input type="checkbox" name="dog">Dog<br>
+        country:<br>
+        <select name="country">
+            <option value="somalia">Somalia</option>
+            <option value="afghanistan">Afhganistan</option>
+            <option value="yemen">Yemen</option>
+            <option value="pakistan">Pakistan</option>
+            <option value="malaysia">Malaysia</option>
+            <option value="india">India</option>
+            <option value="japan">Japan</option>
+        </select><br>
+
+        <input type="submit" value="Register">
+        <input type="reset">
+    </form>
+    </div>
+</body>
+</html>
